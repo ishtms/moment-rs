@@ -1,0 +1,17 @@
+[package]
+name = "moment-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ishtmeet Singh <ishtmeet.rissam@gmail.com>"]
+repository = "https://github.com/ishtmeet-singh/moment-rs"
+homepage = "https://github.com/ishtmeet-singh/moment-rs"
+keywords = ["time", "moment", "date", "calendar", "duration", "moment-rs"]
+categories = ["date-and-time"]
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+description = "A date/time library to parse, validate, manipulate and format dates, inspired by luxon/moment.js"
+include = ["src/**/*", "README.md", "!src/tests.rs"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
